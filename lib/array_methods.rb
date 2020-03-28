@@ -7,7 +7,8 @@ array.sort!
 end
 
 def using_reverse(array)
-array.reverse!
+new_array = ['Han', 'Luke', 'Leia', 'wow']
+new_array = array.reverse
 end
 
 def using_first(array)
